@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(120deg, #fff7fc 0%, #ffe3e3 100%);
+  color: #7a2f47;
+}
+.hero {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+}
+.invitation-img {
+  width: 200px;
+  border-radius: 12px;
+  border: 3px solid #f8bbd0;
+  margin-bottom: 1.2rem;
+  box-shadow: 0 2px 18px 2px #ffd6eb;
+}
+h1 {
+  font-family: 'Parisienne', cursive;
+  font-size: 3rem;
+  color: #d13f6b;
+  margin: 0.5rem 0;
+  letter-spacing: 3px;
+}
+.date, .venue {
+  font-size: 1.1rem;
+  margin: .2rem 0;
+}
+.heart {
+  color: #ed145b;
+  font-size: 1.2em;
+}
+.intro {
+  margin: 1.3rem auto 2rem;
+  max-width: 600px;
+  font-size: 1.2rem;
+  color: #67475c;
+}
+section {
+  margin: 2.5rem auto;
+  max-width: 700px;
+  padding: 1rem 2rem;
+  background: #fff3f8d6;
+  border-radius: 18px;
+  box-shadow: 0 2px 18px 2px #ffd6eb3d;
+}
+section h2 {
+  font-family: 'Parisienne', cursive;
+  font-size: 2rem;
+  color: #ad1657;
+  margin-bottom: .5rem;
+}
+.story p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+.gallery img {
+  width: 150px;
+  margin: 0.7rem;
+  border-radius: 10px;
+  border: 2px solid #ffc1e9;
+  box-shadow: 0 1px 12px 1px #ffd6eb;
+}
+.invite-details ul {
+  list-style: heart;
+  padding-left: 1.2rem;
+}
+.invite-details li {
+  margin: 0.6rem 0;
+  font-size: 1.07rem;
+  color: #735161;
+}
+.rsvp form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  max-width: 350px;
+  margin: 1rem auto;
+}
+.rsvp input, .rsvp button {
+  padding: .8em;
+  font-size: 1em;
+  border-radius: 6px;
+  border: 1px solid #ed91b7;
+}
+.rsvp button {
+  background: #ed91b7;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background .2s;
+}
+.rsvp button:hover {
+  background: #d13f6b;
+}
+footer {
+  background: #feebf6;
+  text-align: center;
+  padding: 1.5rem 1rem .8rem 1rem;
+  font-size: 1.12rem;
+  border-top: 2px solid #ffc1e9;
+  color: #735161;
+}
+@media (max-width: 600px) {
+  h1 {font-size: 1.8rem;}
+  .hero {padding: 1rem;}
+  section {padding: 1rem;}
+}
